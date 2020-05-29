@@ -1,0 +1,116 @@
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+body {
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  background-color: #ffeead;
+}
+
+.container > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.container > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.container > div:nth-child(3) {
+  background-color: #88d8b8;
+}
+/* 
+.container > div:nth-child(4) {
+  background-color: #209c6b;
+} */
+
+/* .home {
+  margin-right: auto;
+} */
+/*
+justify-content: flex-start flex-end center space-around space-between space-evenly
+*/
+
+/* .container > div {
+  flex: 1;
+
+  /* flex-grow, flex-shrink, flex-basis */
+/* }  */
+
+/* .search {
+  flex: 2;
+} */
+
+/* .home {
+  flex: 1;
+}
+.logout {
+  flex: 1;
+} */
+/* 
+ center the button on any screen
+display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center; */
+#root {
+  height: 100%;
+}
+
+/* .container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  height: 100%;
+  align-items: center;
+} */
+
+/* .logout {
+  align-self: flex-start;
+}
+
+.home {
+  align-self: flex-end;
+} */
+
+/* .container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: flex-end;
+} */
+/* 
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width: 300px;
+} */
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.home {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
+.logout {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
